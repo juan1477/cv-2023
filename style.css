@@ -1,0 +1,43 @@
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Orbitron', sans-serif; */
+
+header{
+    height: 5vh;
+}
+
+img{
+
+}
+body{
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+
+    font-family: 'Inconsolata', monospace;
+}
+main{
+    
+   
+}
+nav > a {
+    font-family:  'Orbitron', sans-serif;
+    font-weight: 700;
+}
+nav > ul > li {
+    font-weight: 700;
+}
+
+
+section{
+min-height: 90vh;
+padding: 10vh 0 10vh 0;
+}
+article > h1{
+    font-weight: 700;
+}
+svg{
+    min-width: 100px;
+    max-height: 100px;
+}
+.img{
+    min-width: 100px;
+    max-height: 100px;
+}
