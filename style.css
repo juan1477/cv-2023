@@ -1,43 +1,38 @@
 /* font-family: 'Inconsolata', monospace;
 font-family: 'Orbitron', sans-serif; */
-
-header{
-    height: 5vh;
+* {
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+}
+header {
+  height: 5vh;
 }
 
-img{
+body {
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 
-}
-body{
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-
-    font-family: 'Inconsolata', monospace;
-}
-main{
-    
-   
+  font-family: "Inconsolata", monospace;
 }
 nav > a {
-    font-family:  'Orbitron', sans-serif;
-    font-weight: 700;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
 }
 nav > ul > li {
-    font-weight: 700;
+  font-weight: 700;
 }
 
-
-section{
-min-height: 90vh;
-padding: 10vh 0 10vh 0;
+section {
+  min-height: 90vh;
+  padding: 10vh 0 10vh 0;
 }
-article > h1{
-    font-weight: 700;
+article > h1 {
+  font-weight: 700;
 }
-svg{
-    min-width: 100px;
-    max-height: 100px;
+svg {
+  min-width: 100px;
+  max-height: 100px;
 }
-.img{
-    min-width: 100px;
-    max-height: 100px;
+.img {
+  min-width: 100px;
+  max-height: 100px;
 }
